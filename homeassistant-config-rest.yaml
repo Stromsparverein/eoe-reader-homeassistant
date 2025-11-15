@@ -1,0 +1,73 @@
+#  Add this lines to your homeassistant configuration.yaml
+ rest:
+ 
+  - resource: https://<YOUR-READER-IP-HERE>/api/v1/measurement
+    scan_interval: 5
+    headers:
+      Authorization: "TOKEN <YOUR-READERS-TOKEN-HERE>"
+    verify_ssl: false
+    sensor:
+
+      - name: eoe_reader_name
+        value_template: "{{ value_json['name']['value'] }}"
+             
+      - name: eoe_reader_Zählernummer
+        value_template: "{{ value_json['0-0:96.1.0']['value'] }}"
+      
+      - name: eoe_reader_Gerätename
+        value_template: "{{ value_json['0-0:42.0.0']['value'] }}"
+      
+      - name: eoe_reader_Clock
+        value_template: "{{ value_json['0-0:1.0.0']['value'] }}"
+      
+      - name: eoe_reader_VoltageL1
+        unit_of_measurement: "V"
+        device_class: "voltage"
+        value_template: "{{ value_json['1-0:32.7.0']['value'] }}"
+      
+      - name: eoe_reader_VoltageL2
+        unit_of_measurement: "V"
+        device_class: "voltage"
+        value_template: "{{ value_json['1-0:52.7.0']['value'] }}"
+      
+      - name: eoe_reader_VoltageL3
+        unit_of_measurement: "V"
+        device_class: "voltage"
+        value_template: "{{ value_json['1-0:72.7.0']['value'] }}"
+      
+      - name: eoe_reader_CurrentL1
+        unit_of_measurement: "A"
+        device_class: "current"
+        value_template: "{{ value_json['1-0:31.7.0']['value'] }}"
+      
+      - name: eoe_reader_CurrentL2
+        unit_of_measurement: "A"
+        device_class: "current"
+        value_template: "{{ value_json['1-0:51.7.0']['value'] }}"
+      
+      - name: eoe_reader_CurrentL3
+        unit_of_measurement: "A"
+        device_class: "current"
+        value_template: "{{ value_json['1-0:71.7.0']['value'] }}"
+      
+      - name: eoe_reader_ActivePowerImport
+        unit_of_measurement: "W"
+        device_class: "power"
+        value_template: "{{ value_json['1-0:1.7.0']['value'] }}"
+      
+      - name: eoe_reader_ActivePowerExport
+        unit_of_measurement: "W"
+        device_class: "power"
+        value_template: "{{ value_json['1-0:2.7.0']['value'] }}"
+      
+      - name: eoe_reader_ActiveEnergyImport
+        unit_of_measurement: "Wh"
+        device_class: "energy"
+        value_template: "{{ value_json['1-0:1.8.0']['value'] }}"
+        state_class: "total_increasing"
+      
+      - name: eoe_reader_ActiveEnergyExport
+        unit_of_measurement: "Wh"
+        device_class: "energy"
+        value_template: "{{ value_json['1-0:2.8.0']['value'] }}"
+        state_class: "total_increasing"

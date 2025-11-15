@@ -1,0 +1,67 @@
+{
+  "0-0:96.1.0": { //Zählernummer
+    "value": "0XX0000000000"
+  },
+  "0-0:42.0.0": { //Gerätename
+    "value": "XXX0000000000000"
+  },
+  "0-0:1.0.0": { //clock
+    "value": 0,
+    "time": 1763104900
+  },
+  "1-0:32.7.0": { //1-0:32.7.0ˣ255 Voltage at phase L1, instantaneous value VV1! in Volt
+    "value": 238.1,
+    "time": 1763104900
+  },
+  "1-0:52.7.0": { //1-0:52.7.0ˣ255 Voltage at phase L2, instantaneous value VV2! in Volt
+    "value": 238.1,
+    "time": 1763104900
+  },
+  "1-0:72.7.0": { //1-0:72.7.0ˣ255 Voltage at phase L3, instantaneous value VV3! in Volt
+    "value": 237.7,
+    "time": 1763104900
+  },
+  "1-0:31.7.0": { //1-0:31.7.0ˣ255 Current at phase L1, instantaneous value CA1! in Ampere
+    "value": 0.39,
+    "time": 1763104900
+  },
+  "1-0:51.7.0": { //1-0:51.7.0ˣ255 Current at phase L2, instantaneous value CA2! in Ampere
+    "value": 0.68,
+    "time": 1763104900
+  },
+  "1-0:71.7.0": { //1-0:51.7.0ˣ255 Current at phase L2, instantaneous value CA3! in Ampere
+    "value": 1.05,
+    "time": 1763104900
+  },
+  "1-0:1.7.0": { //Active power import (+P), current value PW1! in Watt
+    "value": 185,
+    "time": 1763104900
+  },
+  "1-0:2.7.0": { //Active power export (-P), current value PW3! in WATT
+    "value": 0,
+    "time": 1763104900
+  },
+  "1-0:1.8.0": { //1-0:1.8.eˣf Active energy import (+A) in Wh
+    "value": 3234775,
+    "time": 1763104900
+  },
+  "1-0:2.8.0": { //1-0:2.8.eˣf Active energy export (-A) in Wh
+    "value": 5541430,
+    "time": 1763104900
+  },
+  "1-0:3.8.0": { //1-0:3.8.eˣf Reactive energy import (+R) in var
+    "value": 98656,
+    "time": 1763104900
+  },
+  "1-0:4.8.0": { //1-0:4.8.eˣf Reactive energy export (-R) in var
+    "value": 6227426,
+    "time": 1763104900
+  },
+  "0-0:2.0.0": {
+    "value": 396,
+    "time": 0
+  },
+  "api_version": "v1",
+  "name": "SMA-ef:ef:ef:ef:ef:ef",
+  "sma_time": 2008.4
+}
