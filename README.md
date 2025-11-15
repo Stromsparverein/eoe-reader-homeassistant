@@ -7,6 +7,11 @@ Integration zum Auslesen des Energie-Österreich Readers in Homeassistant (https
 
 ### 1. API-Key am Reader Modul erstellen und Einträge in der Datei homeassistant-config-rest.yaml ersetzen.
 
+
+#### Videoanleitung:
+
+[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-screenshot.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-create-api-key-2025-11-15_11.44.29.mp4)
+
 #### Zu ersetzende Einträge:
 
 ```html
@@ -33,11 +38,12 @@ Integration zum Auslesen des Energie-Österreich Readers in Homeassistant (https
     sensor:
 ```
 
-#### Videoanleitung:
-
-[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-screenshot.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-create-api-key-2025-11-15_11.44.29.mp4)
-
-
 ### 2. Sensoren in Homeassistant integrieren
 
-Inhalt von der angepassten 
+Inhalt von der angepassten homeassistant-config-rest.yaml kopieren und and das Ende der configuration.yaml von Homeassistant hinzufügen.
+
+Üblicherweise ist diese Datei unter /config/homeassistant.yaml zu finden. (Dies kann allerdings je nach installationsmethode variiren)
+
+### 3. Config überprüfen und Homeassistant neu starten
+
+[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/homeassistant-restart.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/restart-homeassistant-2025-11-15_12.59.36.mp4)
