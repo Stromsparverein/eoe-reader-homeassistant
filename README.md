@@ -10,7 +10,7 @@ Integration zum Auslesen des Energie-Österreich Readers in Homeassistant (https
 
 #### Videoanleitung:
 
-[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-screenshot.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-create-api-key-2025-11-15_11.44.29.mp4)
+[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-screenshot.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/eoe-reader-create-api-key-2025-11-15_11.44.29.webp)
 
 #### Zu ersetzende Einträge:
 
@@ -46,13 +46,15 @@ Inhalt von der angepassten homeassistant-config-rest.yaml kopieren und and das E
 
 ### 3. Config überprüfen und Homeassistant neu starten
 
-[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/homeassistant-restart.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/restart-homeassistant-2025-11-15_12.59.36.mp4)
+[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/homeassistant-restart.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/restart-homeassistant-2025-11-15_12.59.36.webp)
 
 
-### 3. Sensoren in Energy Dashboard einbinden
+### 3. Sensoren in Energy-Dashboard einbinden
 
-[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-sensor-to-energydashboard.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-reader-to-energyDashboard-2025-11-15_19.39.41.mp4)
+[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-sensor-to-energydashboard.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-reader-to-energyDashboard-2025-11-15_19.39.41.webp)
 
-### 4. Sensoren in Homeassistant Dashboard einbinden
+### 4. Sensoren in Homeassistant Custom-Dashboard einbinden
 
-[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-sensors-to-dashboard.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-sensors-homeassistant-2025-11-15_19.44.55.mp4)
+[![Watch the video](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-sensors-to-dashboard.png)](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-sensors-homeassistant-2025-11-15_19.44.55.webp)
+
+![webp](https://raw.githubusercontent.com/Stromsparverein/eoe-reader-homeassistant/main/assets/add-sensors-homeassistant-2025-11-15_19.44.55.webp)
