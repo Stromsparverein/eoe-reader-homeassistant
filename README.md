@@ -32,6 +32,6 @@ Integration zum Auslesen des Energie-Österreich Readers in Homeassistant (https
     verify_ssl: false
     sensor:
 ```
-[![Watch the video](./assets/eoe-reader-screenshot.png)](./assets/eoe-reader-create-api-key-2025-11-15_11.44.29.mp4)
+[![Watch the video](./assets/eoe-reader-screenshot.png)](https://github.com/Stromsparverein/eoe-reader-homeassistant/blob/452f026da8961627fdeee037ffd61c9d538c3295/assets/eoe-reader-create-api-key-2025-11-15_11.44.29.mp4)
 
 
