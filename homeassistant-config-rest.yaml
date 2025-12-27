@@ -63,7 +63,7 @@
       - name: eoe_reader_ActivePowerCombined
         unit_of_measurement: "W"
         device_class: "power"
-        value_template: "{{ value_json['1-0:1.7.0']['value']  int - value_json['1-0:2.7.0']['value'] | int }}"
+        value_template: "{{ value_json['1-0:1.7.0']['value'] | int - value_json['1-0:2.7.0']['value'] | int }}"
       
       - name: eoe_reader_ActiveEnergyImport
         unit_of_measurement: "Wh"
